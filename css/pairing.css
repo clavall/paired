@@ -1,66 +1,78 @@
 .table-header { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
     padding: 2rem;
 }
+
+.table-header p {
+  font-size: 1.3rem;
+}
+
 
 /* CSS to style the grid and pairings */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 3rem;
-    padding: 3rem;
+    padding: 1rem;
     /* padding-top: 20px; */
   }
   
-  .pairing {
-    border: 1px solid var(--licorice);
-    text-align: center;
-    perspective: 1000px;
-    position: relative; 
-    height: 200px; 
-    width: 200px; 
-    border-radius: 10px; 
-  }
-  
-  .card {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d; 
-    transition: transform 0.5s; 
-  }
-  
-  .front, .back {
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    border-radius: 10px;
+.pairing {
+  border: 1.5px solid var(--licorice);
+  box-shadow: 5px 5px var(--licorice);
+  text-align: center;
+  perspective: 1000px;
+  position: relative; 
+  height: 200px; 
+  width: 200px; 
+  border-radius: 10px; 
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .front {
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d; 
+  transition: transform 0.5s; 
+}
 
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-  
-  .back {
-    background-color: #f0f0f0;
-    transform: rotateY(180deg);
-    z-index: 1; /* Ensure back is behind front */
+.front, .back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  border-radius: 10px;
 
-  }
-  
-  .pairing:hover .card {
-    transform: rotateY(180deg);
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.front {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.back {
+  background-color: #f0f0f0;
+  transform: rotateY(180deg);
+  z-index: 1; /* Ensure back is behind front */
+
+}
+
+.pairing:hover .card {
+  transform: rotateY(180deg);
+}
