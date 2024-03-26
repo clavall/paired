@@ -1,0 +1,68 @@
+{
+    "pairing-dishes": [
+      {
+        "dish": "Beef",
+        "wines": ["Cabernet Sauvignon", "Merlot", "Malbec", "Syrah", "Zinfandel", "Bordeaux Blends"]
+      },
+      {
+        "dish": "Chicken",
+        "wines": ["Chardonnay", "Sauvignon Blanc", "Pinot Grigio", "Riesling", "Gewürztraminer", "Chenin Blanc"]
+      },
+      {
+        "dish": "Fish",
+        "wines": ["Chardonnay", "Sauvignon Blanc", "Pinot Grigio", "Riesling", "Chenin Blanc", "Albariño"]
+      },
+      {
+        "dish": "Pork",
+        "wines": ["Pinot Noir", "Riesling", "Gewürztraminer", "Chardonnay", "Rosé", "Zinfandel"]
+      },
+      {
+        "dish": "Thai Cuisine",
+        "wines": ["Riesling", "Gewürztraminer", "Chenin Blanc", "Sauvignon Blanc", "Grüner Veltliner"]
+      },
+      {
+        "dish": "Chinese Cuisine",
+        "wines": ["Riesling", "Gewürztraminer", "Pinot Noir", "Chardonnay", "Riesling"]
+      },
+      {
+        "dish": "Mexican Cuisine",
+        "wines": ["Margarita", "Sauvignon Blanc", "Riesling", "Malbec", "Zinfandel"]
+      },
+      {
+        "dish": "Indian Cuisine",
+        "wines": ["Riesling", "Gewürztraminer", "Chenin Blanc", "Syrah", "Zinfandel"]
+      },
+      {
+        "dish": "Pizza",
+        "wines": ["Chianti", "Lambrusco", "Merlot", "Sangiovese"]
+      },
+      {
+        "dish": "BBQ",
+        "wines": ["Zinfandel", "Syrah", "Malbec", "Cabernet Sauvignon", "Merlot"]
+      },
+      {
+        "dish": "Alfredo",
+        "wines": ["Chardonnay", "Pinot Grigio", "Sauvignon Blanc", "Viognier"]
+      },
+      {
+        "dish": "Salad",
+        "wines": ["Sauvignon Blanc", "Pinot Grigio", "Rosé", "Chenin Blanc", "Grüner Veltliner"]
+      },
+      {
+        "dish": "Grilled Salmon",
+        "wines": ["Pinot Noir", "Chardonnay", "Sauvignon Blanc", "Rosé"]
+      },
+      {
+        "dish": "Spicy Curry",
+        "wines": ["Riesling", "Gewürztraminer", "Chenin Blanc", "Syrah", "Grüner Veltliner"]
+      },
+      {
+        "dish": "Lobster",
+        "wines": ["Chardonnay", "Sauvignon Blanc", "Champagne", "Pinot Gris"]
+      },
+      {
+        "dish": "Risotto",
+        "wines": ["Chardonnay", "Pinot Grigio", "Sauvignon Blanc", "Barbera"]
+      }
+    ]
+  }

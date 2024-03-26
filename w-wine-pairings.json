@@ -1,0 +1,56 @@
+{
+  "white-wines": [
+    {
+      "grapeVariety": "Albarino/Alvarinho",
+      "foods": ["Seafood", "Shellfish", "Grilled vegetables"]
+    },
+    {
+      "grapeVariety": "Assyrtiko",
+      "foods": ["Seafood", "Greek cuisine", "Mediterranean dishes"]
+    },
+    {
+      "grapeVariety": "Chardonnay",
+      "foods": ["Chicken", "Turkey", "Creamy sauces"]
+    },
+    {
+      "grapeVariety": "Chenin Blanc",
+      "foods": ["Poultry", "Pork", "Asian cuisine"]
+    },
+    {
+      "grapeVariety": "Gewurztraminer",
+      "foods": ["Spicy dishes", "Asian cuisine", "Curries"]
+    },
+    {
+      "grapeVariety": "Pinot Gris/Grigio",
+      "foods": ["Seafood", "Salads", "Light pasta dishes"]
+    },
+    {
+      "grapeVariety": "Riesling",
+      "foods": ["Spicy food", "Chinese cuisine", "Thai dishes"]
+    },
+    {
+      "grapeVariety": "Roussanne",
+      "foods": ["Seafood", "Poultry", "Creamy sauces"]
+    },
+    {
+      "grapeVariety": "Sauvignon Blanc",
+      "foods": ["Goat cheese", "Salads", "Vegetarian dishes"]
+    },
+    {
+      "grapeVariety": "Semillon",
+      "foods": ["Seafood", "Chicken", "Creamy dishes"]
+    },
+    {
+      "grapeVariety": "Verdicchio",
+      "foods": ["Seafood", "Light pasta", "Herb-roasted chicken"]
+    },
+    {
+      "grapeVariety": "Vermentino",
+      "foods": ["Seafood", "Mediterranean cuisine", "Vegetarian dishes"]
+    },
+    {
+      "grapeVariety": "Viognier",
+      "foods": ["Poultry", "Asian cuisine", "Spicy dishes"]
+    }
+  ]
+}

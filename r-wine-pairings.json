@@ -1,0 +1,92 @@
+{
+  "red-wines": [
+    {
+      "grapeVariety": "Cabernet Sauvignon",
+      "foods": ["Beef", "Lamb", "Hard cheeses"]
+    },
+    {
+      "grapeVariety": "Cabernet Franc",
+      "foods": ["Pork", "Chicken", "Vegetarian dishes"]
+    },
+    {
+      "grapeVariety": "Cinsault",
+      "foods": ["Grilled meats", "Barbecue", "Mediterranean cuisine"]
+    },
+    {
+      "grapeVariety": "Corvina",
+      "foods": ["Grilled meats", "Pasta with red sauce", "Hard cheeses"]
+    },
+    {
+      "grapeVariety": "Corvinone",
+      "foods": ["Grilled meats", "Pasta with red sauce", "Hard cheeses"]
+    },
+    {
+      "grapeVariety": "Dornfelder",
+      "foods": ["Barbecue", "Roast duck", "Smoked meats"]
+    },
+    {
+      "grapeVariety": "Gamay",
+      "foods": ["Poultry", "Charcuterie", "Vegetarian dishes"]
+    },
+    {
+      "grapeVariety": "Grenache/Garnacha",
+      "foods": ["Lamb", "Grilled vegetables", "Mediterranean cuisine"]
+    },
+    {
+      "grapeVariety": "Merlot",
+      "foods": ["Poultry", "Pork", "Soft cheeses"]
+    },
+    {
+      "grapeVariety": "Montepulciano",
+      "foods": ["Pizza", "Pasta with tomato sauce", "Hard cheeses"]
+    },
+    {
+      "grapeVariety": "Mourvedre/Monastrell",
+      "foods": ["Barbecue", "Grilled meats", "Game meats"]
+    },
+    {
+      "grapeVariety": "Nebbiolo",
+      "foods": ["Pasta with truffle sauce", "Roasted game", "Aged cheeses"]
+    },
+    {
+      "grapeVariety": "Petit Verdot",
+      "foods": ["Grilled meats", "Game meats", "Rich stews"]
+    },
+    {
+      "grapeVariety": "Petite Sirah",
+      "foods": ["Barbecue", "Stews", "Grilled meats"]
+    },
+    {
+      "grapeVariety": "Pinot Noir",
+      "foods": ["Salmon", "Mushrooms", "Vegetarian dishes"]
+    },
+    {
+      "grapeVariety": "Rondinella",
+      "foods": ["Grilled meats", "Pasta with red sauce", "Hard cheeses"]
+    },
+    {
+      "grapeVariety": "Sangiovese",
+      "foods": ["Pizza", "Pasta with tomato sauce", "Hard cheeses"]
+    },
+    {
+      "grapeVariety": "Syrah/Shiraz",
+      "foods": ["Grilled meats", "Barbecue", "Spicy dishes"]
+    },
+    {
+      "grapeVariety": "Touriga Nacional",
+      "foods": ["Lamb", "Game meats", "Strong cheeses"]
+    },
+    {
+      "grapeVariety": "Tempranillo",
+      "foods": ["Paella", "Tapas", "Grilled meats"]
+    },
+    {
+      "grapeVariety": "Teroldegho",
+      "foods": ["Grilled meats", "Game meats", "Rich stews"]
+    },
+    {
+      "grapeVariety": "Xinomavro",
+      "foods": ["Grilled meats", "Mediterranean cuisine", "Hard cheeses"]
+    }
+  ]
+}

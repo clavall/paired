@@ -12,18 +12,47 @@
         <title>Paired</title>
     </head>
     <body>
-        <!-- <p>
-            Welcome to paired! A simple web application that will help you pair wine with foods and vice versa! There is also a quick and easy
-            quiz you can take that will reccomend wines to you based on your preferences!
-        </p> -->
-        <h1>Begin Pairing...</h1>
-        <div>
-            IMG HERE
-            Food
-        </div>
-        <div>
-            IMG HERE
-            Wine
+        <nav>
+            <h1><a href="index.html">PAIRED</a></h1>
+
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            
+            <ul class="navContainer">
+                    <li class="navItem"><a href="wine-pairing.html">Wine Pairings</a></li>
+                    <li class="navItem"><a href="food-pairing.html">Food Pairings</a></li>
+                    <li class="navItem"><a href="pairing-quiz.html">Pairing Quiz</a></li>
+            </ul>
+        </nav>
+        
+        <div class="mainContainer">
+            <div class="introduction">
+                <h1>Welcome to Paired</h1>
+                <p>
+                    Paired is a simple web application that will help you pair wine with foods and vice versa! There is also a quick and easy
+                    quiz you can take that will reccomend wines you may enjoy to you based on your preferences!
+                </p>
+            </div>
+
+            <!-- <div class="divider"></div> -->
+            
+            <div class="previewBlock">
+                <h1>Find Your Perfect Pairing...</h1>
+                <div class="optionsContainer">
+                    <div class="circleContainer"> 
+                        <img class="icon" src="media/plate-of-food.png" alt="Plate of food icon">
+                        <a class="pageLink" href="pairing-quiz.html"><p>Food</p></a>
+                    </div>
+                    <div class="circleContainer"> 
+                        <img class="icon" src="media/glass-with-wine.png" alt="Plate of food icon">
+                        <a class="pageLink" href="pairing-quiz.html"><p>Wine</p></a>
+                    </div>
+                    <div class="circleContainer"> 
+                        <img class="icon" src="media/plate-of-food.png" alt="Plate of food icon">
+                        <a class="pageLink" href="pairing-quiz.html"><p>Quiz</p></a>
+                    </div>
+                </div> 
+            </div>  
         </div>
 
     </body>

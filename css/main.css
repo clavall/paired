@@ -1,0 +1,156 @@
+@import "navbar.css";
+@import "foodpairing.css";
+@import "pairing.css";
+@import "quiz.css";
+
+/* Variables */
+:root {
+    --font-family: Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+    --mint-cream: #eff9f0ff;
+    --pale-dogwood: #ddc8c4ff;
+    --rose-taupe: #896a67ff;
+    --eggplant: #6b4d57ff;
+    --licorice: #13070cff;
+
+    --antiflash-white: #eaeaecff;
+    --misty-rose: #f7dad9ff;
+    --fairy-tale: #fcc5d9ff;
+    --cool-gray: #797a9eff;
+
+    --white-smoke: #F5F5F5;
+
+    --mimi-pink: #F8DDE4;
+
+    --tester: #E4EDF2;
+
+    --seasalt: #F6F6F6;
+    
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--misty-rose);
+    color: var(--licorice);
+    /* font-family: var(--font-family); */
+
+    margin: 0;
+    overflow: visible;
+    
+
+    position: relative;
+    padding-top: 80px;
+
+}
+
+.mainContainer {
+    background-color: var(--misty-rose);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+
+    /* gap: 1rem; */
+
+    /* border: 1px solid slateblue; */
+}
+
+/* FIRST BLOCK */
+.introduction {
+    /* background-color: var(--misty-rose); */
+    /* border: 1px solid firebrick; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 4rem;
+
+    padding: 8rem; 
+}
+
+.introduction h1 {
+    font-size: 500%;
+}
+
+.introduction p {
+    /* border: 1px solid blue; */
+
+    text-align: center;
+    font-size: 1.4rem;
+
+    padding: 0 20% 0 20%;
+}
+
+
+/* .divider {
+    border: 1px solid green;
+    width: 50rem;
+} */
+
+/* SECOND BLOCK */
+.previewBlock {
+    /* border: 1px solid yellow; */
+    /* background-color: var(--seasalt); */
+    /* background-color: var(--antiflash-white); */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2rem;
+
+    width: 100%;
+    
+    gap: 1rem;
+}
+
+.optionsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.circleContainer {
+    border: 1px solid var(--licorice);
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+
+    height: 12rem;
+    width: 12rem;
+}
+
+.pageLink {
+    text-decoration: none;
+    color: var(--licorice);
+    font-size: 1.5rem;
+}
+
+.pageLink :hover {
+    font-weight: bold;
+}
+
+.icon {
+    height: 6rem;
+    width: 6rem;
+}
