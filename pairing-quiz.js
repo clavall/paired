@@ -74,7 +74,7 @@ let quizStarted = false;
 function startQuiz() {
   quizStarted = true;
   document.getElementById("startButton").style.display = "none";
-  document.getElementById("quiz").style.display = "block";
+  document.getElementById("quiz").style.display = "flex";
   loadQuestion();
 }
 
@@ -111,14 +111,14 @@ function resetQuiz() {
   quizStarted = false;
   document.getElementById("result").style.display = "none";
   document.getElementById("quiz").style.display = "none";
-  document.getElementById("startButton").style.display = "block";
+  document.getElementById("startButton").style.display = "flex";
 }
 
 function showResult() {
   const resultContainer = document.getElementById("result");
   const wineResult = document.getElementById("wineResult");
 
-  resultContainer.style.display = "block";
+  resultContainer.style.display = "flex";
   document.getElementById("quiz").style.display = "none";
   const wineType = answers[0];
   const sweetness = answers[1];

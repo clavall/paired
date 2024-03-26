@@ -46,7 +46,7 @@
       },
       {
         "dish": "Salad",
-        "wines": ["Sauvignon Blanc", "Pinot Grigio", "Rosé", "Chenin Blanc", "Grüner Veltliner"]
+        "wines": ["Sauvignon Blanc", "Pinot Grigio", "Chenin Blanc"]
       },
       {
         "dish": "Grilled Salmon",
@@ -54,7 +54,7 @@
       },
       {
         "dish": "Spicy Curry",
-        "wines": ["Riesling", "Gewürztraminer", "Chenin Blanc", "Syrah", "Grüner Veltliner"]
+        "wines": ["Riesling", "Gewürztraminer", "Chenin Blanc", "Syrah"]
       },
       {
         "dish": "Lobster",
